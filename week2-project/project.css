@@ -1,0 +1,48 @@
+:root{
+    --ink: darkslategray;
+    --paper: ivory;
+    --soft-paper: linen;
+    --accent: sienna;
+    --muted: slategray;
+    --line: tan;
+}
+body{
+    margin: 0;
+    background-color: ivory;
+    color: darkslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 8%;
+    border-bottom: 1px solid tan;
+}
+h1{
+    font-size: 4rem;
+    font-weight: normal;
+}
+h1 em{
+    color: sienna;
+    font-style: italic;
+}
+.photo-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+.photo-grid img{
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+}
+a:hover{
+    color: sienna;
+}
+@media (max-width: 760px){
+    .photo-grid{
+        grid-template-columns: 1fr;
+    }
+}
