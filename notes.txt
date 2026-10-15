@@ -1,0 +1,3 @@
+Inspiration for the Event-> NEXTLEVEL is inspred by the growing community and excitement of esports. The event brings gamers together to compete, reconnect, showcase, their skills and celebrate their passion for gaming.
+Imanaged to use the border radius on the image tables and the registration form by using the universal *{} element in CSS.
+Major issue for me was creating the link and ensuring that when clicked, it took the user directly to the specified section. To resolve this I simple put the even programme in its own section and re-wrote the class="" and id="" elements. 
