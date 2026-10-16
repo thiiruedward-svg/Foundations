@@ -96,3 +96,11 @@ console.log(country);
  console.log("is a not equal to b? " + (a!=b));
 
  console.log("is a strictly not equal to b? " + (a!==b));
+
+ console.log("is a greater than b? " + (a>b));
+
+ console.log("is a less than b? " + (a<b));
+
+ console.log("is a greater than or equal to b? " + (a>=b));
+
+ console.log("is a less than or equal to b? " + (a<=b));
