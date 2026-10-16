@@ -1,0 +1,60 @@
+h1{
+    font-size:  25pt;
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+}
+p{
+    font-size: 12pt;
+    color: brown;
+}
+table{
+    background-color: chartreuse;
+    font-style: bold;
+}
+thead{
+    color: black;
+    font-size: 15;
+    font-style: italic;
+}
+tbody{
+    color: beige;
+    font-size: 12pt;
+}
+ul{
+    font-size: 12pt;
+    color: brown;
+    list-style-type: square;
+}
+ol{
+    font-size: 12pt;
+    color: red;
+}
+dl{
+    font-size: 15pt;
+    color: blueviolet;
+}
+body{
+    background-color: darkgrey;
+}
+#mytable{
+    border-collapse: collapse;
+    width: 100%;
+}
+p[test-box1]{
+    font-size: 12pt;
+    color: red;
+}
+*{
+    margin: 40;
+    padding: 20;
+    box-sizing: border-box;
+}
+.link:hover{
+    color: blue;
+    text-decoration: underline;
+}
+p::first-line{
+    font-weight: bold;
+    color: brown;
+}
