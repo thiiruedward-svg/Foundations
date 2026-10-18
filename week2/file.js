@@ -135,6 +135,7 @@ console.log(country);
  }
 
  
+ 
  let totalMarks;
 
  let subjectOne = 85;
