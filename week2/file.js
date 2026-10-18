@@ -134,7 +134,7 @@ console.log(country);
     console.log(number + " is odd.");
  }
 
-
+ 
  let totalMarks;
 
  let subjectOne = 85;
