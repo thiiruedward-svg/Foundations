@@ -161,3 +161,78 @@ console.log(country);
  } else {
     console.log("Grade: F");
  }
+
+
+ for (let x = 1; x <=100; x++) {
+   console.log(x);
+ }
+
+ let i = 1;
+
+ while (i <= 5) {
+   console.log(i);
+   i++;
+ }
+
+
+ let j = 3;
+
+ do {
+   console.log(j);
+   j--;
+ }while (j >= 1)
+
+
+for (let k = 1; k <= 10; k++){
+   if (k === 5) {
+      console.log("Breaking the loop at k =" + k);
+      break;
+   }
+   console.log(k);
+}
+
+for (let m = 1; m <= 10; m++){
+   if (m === 5) {
+      console.log("Skipping the interation at m =" + m);
+      continue;
+   }
+   console.log(m);
+}
+
+
+let day = 3;
+let activity;
+
+switch (day) {
+
+    case 1:
+       console.log("Sunday");
+       break;
+
+   case 2:
+       console.log("Monday");
+       break;
+   
+    case 3:
+       console.log("Tuesday");
+       break;
+
+   case 4:
+       console.log("Wednesday");
+       break;
+
+   case 5:
+       console.log("Thursday");
+       break;
+
+   case 6:
+       console.log("Friday");
+       break;
+
+   case 7:
+       console.log("Saturday");
+       break;
+
+   default:
+       console.log("Invalid Day");
+}
